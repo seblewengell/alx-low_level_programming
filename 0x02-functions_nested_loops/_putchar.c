@@ -4,8 +4,6 @@
  * @c: the character to print
  *
  *
- * Description: prints _putchar
- *
  * Return: on success 1.
  * on error, -1 is returned, and errno is set appropriately
  */
