@@ -1,11 +1,6 @@
 #include <unistd.h>
 /**
- * putchar - writes the character cto stdout 
- * @c: the character to print
- *
- *
- * Return: on success 1.
- * on error, -1 is returned, and errno is set appropriately
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
 int _putchar(char c)
 {
