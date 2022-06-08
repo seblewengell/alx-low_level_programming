@@ -1,8 +1,14 @@
-void print_alphabet(void);
-#include <unistd.h>
-int _putchar(char c)
+#include "main.h"
+/**
+ * print_alphabet - prints the english alphabet from a-z.
+ */
+void print_alphabet(void)
 {
-{
-     return (write(1, &c, 1));
-	return (write(1, &c, 1));
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
