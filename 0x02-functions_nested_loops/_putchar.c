@@ -1,9 +1,18 @@
 #include <unistd.h>
+#include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
-}
+	char c[] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
+	return (0);
+}
